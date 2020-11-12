@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E509544D25528319007AE2CA /* BasicViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E509544B25528319007AE2CA /* BasicViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E509544E25528319007AE2CA /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E509544C25528319007AE2CA /* BasicViewController.m */; };
+		E5095450255284AA007AE2CA /* UIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E509544F255284AA007AE2CA /* UIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5095453255286E6007AE2CA /* BaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5095451255286E6007AE2CA /* BaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5095454255286E6007AE2CA /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5095452255286E6007AE2CA /* BaseNavigationController.m */; };
+		E50954562552B39D007AE2CA /* TabViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E50954552552B39D007AE2CA /* TabViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56D7012255D2F3B0031EB28 /* RequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E56D7010255D2F3B0031EB28 /* RequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56D7013255D2F3B0031EB28 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D7011255D2F3B0031EB28 /* RequestManager.m */; };
+		E56D7015255D2FDE0031EB28 /* NetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E56D7014255D2FDE0031EB28 /* NetworkConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56D7028255D37B70031EB28 /* BusinessConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E56D7027255D37B70031EB28 /* BusinessConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56D7030255D3B2A0031EB28 /* BasicHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E56D702E255D3B2A0031EB28 /* BasicHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56D7031255D3B2A0031EB28 /* BasicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702F255D3B2A0031EB28 /* BasicHandler.m */; };
+		E56D7034255D3EFA0031EB28 /* ResponseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E56D7032255D3EFA0031EB28 /* ResponseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56D7035255D3EFA0031EB28 /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D7033255D3EFA0031EB28 /* ResponseModel.m */; };
 		E5C313A725500FE400158205 /* iOSBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313A525500FE400158205 /* iOSBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5C313BF2550109B00158205 /* SingletonSynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313BD2550109B00158205 /* SingletonSynthesizer.h */; };
-		E5C313C02550109B00158205 /* CommonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313BE2550109B00158205 /* CommonConstants.h */; };
+		E5C313BF2550109B00158205 /* SingletonSynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313BD2550109B00158205 /* SingletonSynthesizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5C313C02550109B00158205 /* CommonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313BE2550109B00158205 /* CommonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +40,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3121E17F454ABE028892E176 /* Pods_iOSBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F58CDA1B505BB867ED504E /* Pods-iOSBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBasic.debug.xcconfig"; path = "Target Support Files/Pods-iOSBasic/Pods-iOSBasic.debug.xcconfig"; sourceTree = "<group>"; };
 		7A15A03DE30E568EDBEA185B /* Pods-iOSBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBasic.release.xcconfig"; path = "Target Support Files/Pods-iOSBasic/Pods-iOSBasic.release.xcconfig"; sourceTree = "<group>"; };
-		8E85C7E3E761A5D1CABA0B3E /* Pods_iOSBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E509544B25528319007AE2CA /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		E509544C25528319007AE2CA /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		E509544F255284AA007AE2CA /* UIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIConstants.h; sourceTree = "<group>"; };
+		E5095451255286E6007AE2CA /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		E5095452255286E6007AE2CA /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		E50954552552B39D007AE2CA /* TabViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewControllerProtocol.h; sourceTree = "<group>"; };
+		E56D7010255D2F3B0031EB28 /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		E56D7011255D2F3B0031EB28 /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		E56D7014255D2FDE0031EB28 /* NetworkConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkConstants.h; sourceTree = "<group>"; };
+		E56D7027255D37B70031EB28 /* BusinessConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessConstants.h; sourceTree = "<group>"; };
+		E56D702E255D3B2A0031EB28 /* BasicHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicHandler.h; sourceTree = "<group>"; };
+		E56D702F255D3B2A0031EB28 /* BasicHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicHandler.m; sourceTree = "<group>"; };
+		E56D7032255D3EFA0031EB28 /* ResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseModel.h; sourceTree = "<group>"; };
+		E56D7033255D3EFA0031EB28 /* ResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
 		E5C313A225500FE400158205 /* iOSBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C313A525500FE400158205 /* iOSBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSBasic.h; sourceTree = "<group>"; };
 		E5C313A625500FE400158205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +84,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E56D700F255D2F110031EB28 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E56D7010255D2F3B0031EB28 /* RequestManager.h */,
+				E56D7011255D2F3B0031EB28 /* RequestManager.m */,
+				E56D7014255D2FDE0031EB28 /* NetworkConstants.h */,
+				E56D7027255D37B70031EB28 /* BusinessConstants.h */,
+				E56D702E255D3B2A0031EB28 /* BasicHandler.h */,
+				E56D702F255D3B2A0031EB28 /* BasicHandler.m */,
+				E56D7032255D3EFA0031EB28 /* ResponseModel.h */,
+				E56D7033255D3EFA0031EB28 /* ResponseModel.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		E5C3139825500FE400158205 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +120,7 @@
 		E5C313A425500FE400158205 /* iOSBasic */ = {
 			isa = PBXGroup;
 			children = (
+				E56D700F255D2F110031EB28 /* Network */,
 				E5C313A525500FE400158205 /* iOSBasic.h */,
 				E5C313BC2550109A00158205 /* Common */,
 				E5C313A625500FE400158205 /* Info.plist */,
@@ -89,6 +133,12 @@
 			children = (
 				E5C313BD2550109B00158205 /* SingletonSynthesizer.h */,
 				E5C313BE2550109B00158205 /* CommonConstants.h */,
+				E509544B25528319007AE2CA /* BasicViewController.h */,
+				E509544C25528319007AE2CA /* BasicViewController.m */,
+				E509544F255284AA007AE2CA /* UIConstants.h */,
+				E5095451255286E6007AE2CA /* BaseNavigationController.h */,
+				E5095452255286E6007AE2CA /* BaseNavigationController.m */,
+				E50954552552B39D007AE2CA /* TabViewControllerProtocol.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -96,7 +146,7 @@
 		F5662D874EBACBC18F93A1A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8E85C7E3E761A5D1CABA0B3E /* Pods_iOSBasic.framework */,
+				3121E17F454ABE028892E176 /* Pods_iOSBasic.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,8 +159,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5C313A725500FE400158205 /* iOSBasic.h in Headers */,
+				E509544D25528319007AE2CA /* BasicViewController.h in Headers */,
+				E5095450255284AA007AE2CA /* UIConstants.h in Headers */,
+				E5095453255286E6007AE2CA /* BaseNavigationController.h in Headers */,
 				E5C313C02550109B00158205 /* CommonConstants.h in Headers */,
+				E56D7012255D2F3B0031EB28 /* RequestManager.h in Headers */,
+				E50954562552B39D007AE2CA /* TabViewControllerProtocol.h in Headers */,
+				E56D7034255D3EFA0031EB28 /* ResponseModel.h in Headers */,
+				E56D7028255D37B70031EB28 /* BusinessConstants.h in Headers */,
 				E5C313BF2550109B00158205 /* SingletonSynthesizer.h in Headers */,
+				E56D7030255D3B2A0031EB28 /* BasicHandler.h in Headers */,
+				E56D7015255D2FDE0031EB28 /* NetworkConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56D7013255D2F3B0031EB28 /* RequestManager.m in Sources */,
+				E56D7031255D3B2A0031EB28 /* BasicHandler.m in Sources */,
+				E56D7035255D3EFA0031EB28 /* ResponseModel.m in Sources */,
+				E5095454255286E6007AE2CA /* BaseNavigationController.m in Sources */,
+				E509544E25528319007AE2CA /* BasicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

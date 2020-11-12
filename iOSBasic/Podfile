@@ -16,6 +16,8 @@ end
 
 def shared_pods
 	pod 'AFNetworking'
+	pod 'YYKit'
+
 end
 
 target 'iOSBasic' do
