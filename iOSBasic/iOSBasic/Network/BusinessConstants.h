@@ -13,7 +13,7 @@
 
 @protocol BusinessHelper <NSObject>
 @required
-- (NSDictionary * _Nonnull)getHeadersByInfo:(NSString *)info;
+- (NSDictionary * _Nonnull)getHeadersByInfo:(NSString *_Nullable)info;
 @end
 
 #endif /* BusinessConstants_h */

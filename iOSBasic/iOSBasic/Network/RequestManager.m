@@ -40,7 +40,6 @@ SYNTHESIZE_ARC_SINGLETON_FOR_CLASS(RequestManager)
 /**
  网络请求
  
- @param URLString 请求连接
  @param parameters 参数
  @param progress 进度
  @param success 成功回调

@@ -6,8 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RequestManager.h"
-#import "BusinessConstants.h"
+#import <iOSBasic/RequestManager.h>
+#import <iOSBasic/BusinessConstants.h>
 NS_ASSUME_NONNULL_BEGIN
 
 #define AuthFailCode    1002

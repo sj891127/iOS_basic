@@ -6,8 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NetworkConstants.h"
-#import "SingletonSynthesizer.h"
+#import <iOSBasic/NetworkConstants.h>
+#import <iOSBasic/SingletonSynthesizer.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
