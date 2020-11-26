@@ -21,6 +21,12 @@
 		E56D7031255D3B2A0031EB28 /* BasicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D702F255D3B2A0031EB28 /* BasicHandler.m */; };
 		E56D7034255D3EFA0031EB28 /* ResponseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E56D7032255D3EFA0031EB28 /* ResponseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E56D7035255D3EFA0031EB28 /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D7033255D3EFA0031EB28 /* ResponseModel.m */; };
+		E587C6D5256F973300E335E9 /* BaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E587C6D3256F973300E335E9 /* BaseButton.h */; };
+		E587C6D6256F973300E335E9 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C6D4256F973300E335E9 /* BaseButton.m */; };
+		E587C6D9256F98C200E335E9 /* BaseTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E587C6D7256F98C200E335E9 /* BaseTextField.h */; };
+		E587C6DA256F98C200E335E9 /* BaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C6D8256F98C200E335E9 /* BaseTextField.m */; };
+		E587C6DD256F998400E335E9 /* BaseTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E587C6DB256F998400E335E9 /* BaseTextView.h */; };
+		E587C6DE256F998400E335E9 /* BaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E587C6DC256F998400E335E9 /* BaseTextView.m */; };
 		E5C313A725500FE400158205 /* iOSBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313A525500FE400158205 /* iOSBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5C313BF2550109B00158205 /* SingletonSynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313BD2550109B00158205 /* SingletonSynthesizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5C313C02550109B00158205 /* CommonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C313BE2550109B00158205 /* CommonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +63,12 @@
 		E56D702F255D3B2A0031EB28 /* BasicHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicHandler.m; sourceTree = "<group>"; };
 		E56D7032255D3EFA0031EB28 /* ResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseModel.h; sourceTree = "<group>"; };
 		E56D7033255D3EFA0031EB28 /* ResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
+		E587C6D3256F973300E335E9 /* BaseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		E587C6D4256F973300E335E9 /* BaseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+		E587C6D7256F98C200E335E9 /* BaseTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTextField.h; sourceTree = "<group>"; };
+		E587C6D8256F98C200E335E9 /* BaseTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTextField.m; sourceTree = "<group>"; };
+		E587C6DB256F998400E335E9 /* BaseTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTextView.h; sourceTree = "<group>"; };
+		E587C6DC256F998400E335E9 /* BaseTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTextView.m; sourceTree = "<group>"; };
 		E5C313A225500FE400158205 /* iOSBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C313A525500FE400158205 /* iOSBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSBasic.h; sourceTree = "<group>"; };
 		E5C313A625500FE400158205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +111,23 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		E587C6D2256F95DB00E335E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E509544B25528319007AE2CA /* BasicViewController.h */,
+				E509544C25528319007AE2CA /* BasicViewController.m */,
+				E5095451255286E6007AE2CA /* BaseNavigationController.h */,
+				E5095452255286E6007AE2CA /* BaseNavigationController.m */,
+				E587C6D3256F973300E335E9 /* BaseButton.h */,
+				E587C6D4256F973300E335E9 /* BaseButton.m */,
+				E587C6D7256F98C200E335E9 /* BaseTextField.h */,
+				E587C6D8256F98C200E335E9 /* BaseTextField.m */,
+				E587C6DB256F998400E335E9 /* BaseTextView.h */,
+				E587C6DC256F998400E335E9 /* BaseTextView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		E5C3139825500FE400158205 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +149,7 @@
 		E5C313A425500FE400158205 /* iOSBasic */ = {
 			isa = PBXGroup;
 			children = (
+				E587C6D2256F95DB00E335E9 /* Base */,
 				E56D700F255D2F110031EB28 /* Network */,
 				E5C313A525500FE400158205 /* iOSBasic.h */,
 				E5C313BC2550109A00158205 /* Common */,
@@ -133,11 +163,7 @@
 			children = (
 				E5C313BD2550109B00158205 /* SingletonSynthesizer.h */,
 				E5C313BE2550109B00158205 /* CommonConstants.h */,
-				E509544B25528319007AE2CA /* BasicViewController.h */,
-				E509544C25528319007AE2CA /* BasicViewController.m */,
 				E509544F255284AA007AE2CA /* UIConstants.h */,
-				E5095451255286E6007AE2CA /* BaseNavigationController.h */,
-				E5095452255286E6007AE2CA /* BaseNavigationController.m */,
 				E50954552552B39D007AE2CA /* TabViewControllerProtocol.h */,
 			);
 			path = Common;
@@ -158,18 +184,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E587C6D5256F973300E335E9 /* BaseButton.h in Headers */,
 				E5C313A725500FE400158205 /* iOSBasic.h in Headers */,
 				E509544D25528319007AE2CA /* BasicViewController.h in Headers */,
 				E5095450255284AA007AE2CA /* UIConstants.h in Headers */,
 				E5095453255286E6007AE2CA /* BaseNavigationController.h in Headers */,
 				E5C313C02550109B00158205 /* CommonConstants.h in Headers */,
 				E56D7012255D2F3B0031EB28 /* RequestManager.h in Headers */,
+				E587C6D9256F98C200E335E9 /* BaseTextField.h in Headers */,
 				E50954562552B39D007AE2CA /* TabViewControllerProtocol.h in Headers */,
 				E56D7034255D3EFA0031EB28 /* ResponseModel.h in Headers */,
 				E56D7028255D37B70031EB28 /* BusinessConstants.h in Headers */,
 				E5C313BF2550109B00158205 /* SingletonSynthesizer.h in Headers */,
 				E56D7030255D3B2A0031EB28 /* BasicHandler.h in Headers */,
 				E56D7015255D2FDE0031EB28 /* NetworkConstants.h in Headers */,
+				E587C6DD256F998400E335E9 /* BaseTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +299,10 @@
 				E56D7013255D2F3B0031EB28 /* RequestManager.m in Sources */,
 				E56D7031255D3B2A0031EB28 /* BasicHandler.m in Sources */,
 				E56D7035255D3EFA0031EB28 /* ResponseModel.m in Sources */,
+				E587C6DA256F98C200E335E9 /* BaseTextField.m in Sources */,
+				E587C6DE256F998400E335E9 /* BaseTextView.m in Sources */,
 				E5095454255286E6007AE2CA /* BaseNavigationController.m in Sources */,
+				E587C6D6256F973300E335E9 /* BaseButton.m in Sources */,
 				E509544E25528319007AE2CA /* BasicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

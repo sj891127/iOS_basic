@@ -11,7 +11,6 @@
 #pragma mark - Env
 typedef NS_ENUM(NSInteger,Environment) {
     EnvironmentDev,     // 开发
-    EnvironmentPre,     // 预发
     EnvironmentOnline   // 正式
 };
 
